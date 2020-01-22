@@ -66,7 +66,7 @@ public class LoadTest {
 	private boolean abortIfOutOfMemory = true; 
 	
 	// This flag indicates whether or not to create core dumps on the event of first load test failure 
-	private boolean dumpRequested = false; 
+	private boolean dumpRequested = true; 
 	
 	// Error reporting control
 	private int reportFailureLimit = 10; 
